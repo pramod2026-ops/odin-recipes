@@ -1,40 +1,100 @@
-# odin-recipes 
+# Odin Recipes
 
-This is a beginner-friendly recipe website built using only HTML. The project contains simple web pages that display easy recipes with ingredients and step-by-step instructions.
+This is a beginner-friendly recipe website built as part of **The Odin Project** curriculum.
+
+The project started as a simple HTML-only website and has been expanded to include multiple recipe pages, images, navigation links, and CSS styling.
 
 ## What I Did
 
-
- Added 3 simple recipes with descriptions, ingredients, and steps
- Structured content using headings, paragraphs, and lists
- Learned how to add and manage images in HTML
- Organized files in a clear folder structure
- Added a footer section with basic information
+- Added 20 different recipes
+- Created a homepage displaying all recipes
+- Created individual pages for each recipe
+- Added recipe images using the `img` tag
+- Added recipe descriptions, ingredients, and step-by-step instructions
+- Used headings, paragraphs, unordered lists, and ordered lists
+- Added links between the homepage and recipe pages
+- Added a shared footer to the pages
+- Added CSS styling to improve the appearance
+- Created responsive recipe cards for the homepage
+- Added hover effects to recipe cards
+- Styled individual recipe pages
+- Added a responsive layout for smaller screens
+- Organized files using a clear folder structure
 
 ## Recipes Included
 
- Vegetable Fried Rice
- Classic Pancakes
- Tomato Omelette
+- Classic Pancakes
+- Tomato Omelette
+- Vegetable Fried Rice
+- Chicken Curry
+- Homemade Pizza
+- French Toast
+- Grilled Cheese Sandwich
+- Vegetable Soup
+- Chicken Sandwich
+- Creamy Pasta
+- Chocolate Cake
+- Banana Bread
+- Chocolate Chip Cookies
+- Crispy Fried Chicken
+- Chicken Tacos
+- Vegetable Fried Noodles
+- Crispy French Fries
+- Fresh Fruit Salad
+- Garlic Bread
 
 ## Skills Practiced
 
- Basic HTML structure
- Using headings (h1 to h3)
- Creating unordered and ordered lists
- Adding images using img tag
- Linking pages using anchor tags
- Writing clean and readable content
+### HTML
 
-## Goal of This Project
+- Basic HTML document structure
+- HTML boilerplate
+- Headings (`h1`, `h2`, `h3`)
+- Paragraphs (`p`)
+- Unordered lists (`ul`)
+- Ordered lists (`ol`)
+- List items (`li`)
+- Images using the `img` tag
+- Links using the `a` tag
+- Relative file paths
+- Semantic elements such as `header`, `main`, and `footer`
 
-The goal of this project is to practice HTML fundamentals and build a strong foundation for future web development projects.
+### CSS
 
-## Future Improvements
+- CSS selectors
+- The universal selector
+- Classes
+- Box model
+- Margins and padding
+- Colors and backgrounds
+- Flexbox
+- Responsive design
+- Hover effects
+- Borders and border-radius
+- Box shadows
+- CSS transitions
+- Media queries
 
- Add CSS for styling
- Make the website responsive
- Add more recipes
- Improve layout and design
+## Project Structure
 
-This project is part of my journey to learn web development.
+odin-recipes/
+│
+|--- index.html
+--- index.css
+│
+|--- images/
+│ |--- pancake.jpg
+│ |---tomato-omelette.jpg
+│ |--- fried-rice.png
+│ |--- chicken-curry.jpg
+│ └...
+│
+└── recipes/
+├── classic-pancake.html
+├── tomato-omelette.html
+├── vegetable-fried-rice.html
+├── chicken-curry.html
+├── pizza.html
+├── french-toast.html
+├── grilled-cheese.html
+└── ...
